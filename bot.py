@@ -1,7 +1,7 @@
 import logging
 
 from Cryptodome.Cipher import AES
-from aiogram import Bot, Dispatcher, executor, types
+from aiogram import Bot, Dispatcher, types
 import requests
 import base64
 import time
@@ -151,5 +151,6 @@ async def main(message: types.Message):
 
     await phone_check(message)
 
+
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    dp.start_polling()
