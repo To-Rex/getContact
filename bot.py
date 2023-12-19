@@ -153,4 +153,4 @@ async def main(message: types.Message):
 
 
 if __name__ == '__main__':
-    dp.start_polling()
+    dp.start_polling(skip_updates=True)
