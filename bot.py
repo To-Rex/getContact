@@ -1,4 +1,6 @@
 import logging
+
+from Cryptodome.Cipher import AES
 from aiogram import Bot, Dispatcher, executor, types
 import requests
 import base64
@@ -7,7 +9,6 @@ import hmac
 import hashlib
 import binascii
 import json
-from Crypto.Cipher import AES
 
 #API_TOKEN = '1234567890:AAAABBCCDDEEEFFFGgGHhHJjJKkKLlLMMmf'                 # TG BOT's TOKEN
 API_TOKEN = '6251262547:AAF5MtGDMWvp1xoOh0Svfe_hLnK9Q8_LH_k'                # TG BOT's TOKEN
