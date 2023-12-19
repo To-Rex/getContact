@@ -9,12 +9,14 @@ import hmac
 import hashlib
 import binascii
 import json
+import flask
 
 #API_TOKEN = '1234567890:AAAABBCCDDEEEFFFGgGHhHJjJKkKLlLMMmf'                 # TG BOT's TOKEN
 API_TOKEN = '6251262547:AAF5MtGDMWvp1xoOh0Svfe_hLnK9Q8_LH_k'                # TG BOT's TOKEN
 AES_KEY = '123a1234bb66660000d00ff0f00000f0ff00000f000f000ff9ff9990000fffаf' # FINAL_KEY from GetContactSettingsPref.xml
 TOKEN = 'fsffFFFFFlj888s3ffmka234DDdfomIOMNOIJOIfjidjfnu87syfy73hfhkf'       # TOKEn from GetContactSettingsPref.xml
-TG_ID = 123456789                                                            # Your telegram id
+TG_ID = 123456789
+
 
 
 
